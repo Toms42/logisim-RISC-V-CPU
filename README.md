@@ -1,4 +1,4 @@
-# logisim-fun
+# logisim RISC-V datapath
 
 literally just a collection of logisim projects I've been working on.
 
