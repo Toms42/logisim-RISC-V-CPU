@@ -1,0 +1,3 @@
+[submodule "riscvtestprogs"]
+	path = riscvtestprogs
+	url = https://github.com/solb/riscvtestprogs
