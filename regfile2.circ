@@ -176,9 +176,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(360,380)" to="(360,1880)"/>
     <wire from="(760,460)" to="(1040,460)"/>
     <wire from="(480,1160)" to="(640,1160)"/>
+    <wire from="(650,1360)" to="(680,1360)"/>
     <wire from="(650,1840)" to="(680,1840)"/>
     <wire from="(650,880)" to="(680,880)"/>
-    <wire from="(650,1360)" to="(680,1360)"/>
     <wire from="(650,2320)" to="(680,2320)"/>
     <wire from="(390,350)" to="(600,350)"/>
     <wire from="(670,2350)" to="(1020,2350)"/>
@@ -275,11 +275,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(840,540)" to="(840,1270)"/>
     <wire from="(250,520)" to="(610,520)"/>
     <wire from="(650,1720)" to="(680,1720)"/>
+    <wire from="(650,2200)" to="(680,2200)"/>
+    <wire from="(650,760)" to="(680,760)"/>
     <wire from="(650,1240)" to="(680,1240)"/>
     <wire from="(820,170)" to="(1040,170)"/>
     <wire from="(950,650)" to="(1040,650)"/>
-    <wire from="(650,2200)" to="(680,2200)"/>
-    <wire from="(650,760)" to="(680,760)"/>
     <wire from="(460,280)" to="(460,1280)"/>
     <wire from="(430,310)" to="(430,1460)"/>
     <wire from="(670,1090)" to="(810,1090)"/>
@@ -525,14 +525,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(770,470)" to="(770,850)"/>
     <wire from="(1030,380)" to="(1040,380)"/>
     <wire from="(380,1760)" to="(640,1760)"/>
-    <comp lib="0" loc="(1120,580)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="r2_d"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(670,610)" name="Register">
+    <comp lib="4" loc="(670,670)" name="Register">
       <a name="width" val="32"/>
     </comp>
     <comp lib="2" loc="(620,160)" name="Decoder">
@@ -544,90 +537,20 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="4" loc="(670,1510)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1130,230)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="r1_d"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(670,2170)" name="Register">
+    <comp lib="4" loc="(670,1210)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,1270)" name="Register">
-      <a name="width" val="32"/>
+    <comp lib="6" loc="(742,2272)" name="Text">
+      <a name="text" val="t4"/>
+      <a name="font" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="4" loc="(670,790)" name="Register">
-      <a name="width" val="32"/>
+    <comp lib="6" loc="(725,1852)" name="Text">
+      <a name="text" val="s6"/>
+      <a name="font" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="4" loc="(670,670)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(1110,410)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="width" val="5"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="r2_a"/>
-    </comp>
-    <comp lib="0" loc="(250,520)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="wr"/>
-    </comp>
-    <comp lib="4" loc="(670,1450)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(1120,60)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="width" val="5"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="r1_a"/>
-    </comp>
-    <comp lib="0" loc="(680,510)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="clk"/>
-    </comp>
-    <comp lib="4" loc="(670,1090)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1690)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,2050)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1930)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1330)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,2110)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1870)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1030)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,2350)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1150)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1630)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(670,1390)" name="Register">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(670,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="e_en"/>
+    <comp lib="6" loc="(725,1736)" name="Text">
+      <a name="text" val="s4"/>
+      <a name="font" val="SansSerif plain 18"/>
     </comp>
     <comp lib="2" loc="(1080,580)" name="Multiplexer">
       <a name="selloc" val="tr"/>
@@ -635,17 +558,61 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="32"/>
       <a name="enable" val="false"/>
     </comp>
+    <comp lib="6" loc="(711,661)" name="Text">
+      <a name="text" val="sp"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(715,1494)" name="Text">
+      <a name="text" val="a6"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,1570)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="6" loc="(740,2347)" name="Text">
+      <a name="text" val="t5"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,1690)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="6" loc="(710,1372)" name="Text">
+      <a name="text" val="a4"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,2170)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="4" loc="(670,1750)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,730)" name="Register">
+    <comp lib="0" loc="(670,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="e_en"/>
+    </comp>
+    <comp lib="6" loc="(729,2090)" name="Text">
+      <a name="text" val="s10"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(712,900)" name="Text">
+      <a name="text" val="t1"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(725,1665)" name="Text">
+      <a name="text" val="s3"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,1270)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,850)" name="Register">
-      <a name="width" val="32"/>
+    <comp lib="6" loc="(714,1435)" name="Text">
+      <a name="text" val="a5"/>
+      <a name="font" val="SansSerif plain 18"/>
     </comp>
-    <comp lib="4" loc="(670,2290)" name="Register">
-      <a name="width" val="32"/>
+    <comp lib="6" loc="(722,1557)" name="Text">
+      <a name="text" val="a7"/>
+      <a name="font" val="SansSerif plain 18"/>
     </comp>
     <comp lib="0" loc="(620,110)" name="Pin">
       <a name="facing" val="south"/>
@@ -653,14 +620,66 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="w_a"/>
     </comp>
-    <comp lib="4" loc="(670,2230)" name="Register">
+    <comp lib="0" loc="(680,510)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="6" loc="(717,1013)" name="Text">
+      <a name="text" val="s0/fp"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,910)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,970)" name="Register">
+    <comp lib="6" loc="(738,2220)" name="Text">
+      <a name="text" val="t3"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,1930)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,1990)" name="Register">
+    <comp lib="4" loc="(670,610)" name="Register">
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,1390)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="6" loc="(710,956)" name="Text">
+      <a name="text" val="t2"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(752,2389)" name="Text">
+      <a name="text" val="t6"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,2350)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,1630)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,1030)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,2290)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,730)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,1330)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="6" loc="(713,1255)" name="Text">
+      <a name="text" val="a2"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(1120,60)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="r1_a"/>
     </comp>
     <comp lib="2" loc="(1080,230)" name="Multiplexer">
       <a name="selloc" val="tr"/>
@@ -668,22 +687,127 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="32"/>
       <a name="enable" val="false"/>
     </comp>
-    <comp lib="4" loc="(670,1210)" name="Register">
+    <comp lib="4" loc="(670,1150)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,910)" name="Register">
+    <comp lib="6" loc="(726,2029)" name="Text">
+      <a name="text" val="s9"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(705,842)" name="Text">
+      <a name="text" val="t0"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(250,520)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="wr"/>
+    </comp>
+    <comp lib="6" loc="(703,1073)" name="Text">
+      <a name="text" val="s1"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(1130,230)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="r1_d"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(707,778)" name="Text">
+      <a name="text" val="tp"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,2050)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(700,560)" name="Ground">
+    <comp lib="4" loc="(670,1090)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,1570)" name="Register">
+    <comp lib="4" loc="(670,1450)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="6" loc="(722,1919)" name="Text">
+      <a name="text" val="s7"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(723,1799)" name="Text">
+      <a name="text" val="s5"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(705,716)" name="Text">
+      <a name="text" val="gp"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(736,2158)" name="Text">
+      <a name="text" val="s11"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(708,599)" name="Text">
+      <a name="text" val="ra"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="6" loc="(714,1188)" name="Text">
+      <a name="text" val="a1"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,790)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,850)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,2110)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,2410)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1120,580)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="r2_d"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(1110,410)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="r2_a"/>
+    </comp>
+    <comp lib="6" loc="(717,1313)" name="Text">
+      <a name="text" val="a3"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,970)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="6" loc="(733,1620)" name="Text">
+      <a name="text" val="s2"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,1990)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="6" loc="(711,1135)" name="Text">
+      <a name="text" val="a0"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="4" loc="(670,1870)" name="Register">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(670,2230)" name="Register">
       <a name="width" val="32"/>
     </comp>
     <comp lib="4" loc="(670,1810)" name="Register">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="4" loc="(670,2410)" name="Register">
+    <comp lib="6" loc="(727,1971)" name="Text">
+      <a name="text" val="s8"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </comp>
+    <comp lib="0" loc="(700,560)" name="Ground">
       <a name="width" val="32"/>
     </comp>
   </circuit>
